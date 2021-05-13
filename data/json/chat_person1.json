@@ -1,0 +1,57 @@
+[{
+        "receiver": "person1",
+        "sender": "me",
+        "timestamp": 1620755368,
+        "message": "Hi!",
+        "read": true
+    },
+    {
+        "receiver": "me",
+        "sender": "person1",
+        "timestamp": 1620755540,
+        "message": "Hello!",
+        "read": true
+    },
+    {
+        "receiver": "person1",
+        "sender": "me",
+        "timestamp": 1620755368,
+        "message": "How are you",
+        "read": true
+    },
+    {
+        "receiver": "me",
+        "sender": "person1",
+        "timestamp": 1620755608,
+        "message": "I am fine man. WBU?",
+        "read": true
+    },
+    {
+        "receiver": "person1",
+        "sender": "me",
+        "timestamp": 1620755646,
+        "message": "I am fine as well!Are we good for tonight's plan? And I am unnecesarrily increasing the length of this message to test if css wraps it...",
+        "read": true
+    },
+    {
+        "receiver": "me",
+        "sender": "person1",
+        "timestamp": 1620755368,
+        "message": "yeah sure...",
+        "read": true
+    },
+    {
+        "receiver": "person1",
+        "sender": "me",
+        "timestamp": 1620755676,
+        "message": "cool...\nsee you then",
+        "read": true
+    },
+    {
+        "receiver": "me",
+        "sender": "person1",
+        "timestamp": 1620755676,
+        "message": "cool...",
+        "read": false
+    }
+]

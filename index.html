@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Basic Messenger</title>
+    <meta name="description" content="Basic_Chat_App">
+    <meta name="author" content="Chetan-Giradkar">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/chat.css">
+    <script type="module" src="app/app.js"></script>
+    <script src="app/home.js"></script>
+    <script src="app/chat.js"></script>
+    <script src="app/service.js"></script>
+</head>
+
+<body class="body">
+    <div class="header">
+        <span class="arrow-back" id="arrow-back">&larr;</span>
+        <span class="name-heading-section">
+            <div class="name-heading"></div>
+        <span class="online-status">
+                <span class="status-text">Active now</span>
+        <sup>&#9679;</sup>
+        </span>
+        </span>
+        <span class="options">&#x2026;</span>
+        <span class="search">
+            <input type='text' placeholder='Search...' id='search-text-input' />
+            <img src='resources/images/magnifying-glass.png' id="search-icon"/>
+        </span>
+    </div>
+    <div class="main">
+        <button id="flag-btn"></button>
+        <div id="home"></div>
+        <div id="chat"></div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+[{
+        "name": "Saurabh",
+        "avatar": "resources/images/avatar_02.png",
+        "chatData": "data/json/chat_person1.json",
+        "isFavourite": true,
+        "number": 1234567890
+    },
+    {
+        "name": "Shreyas",
+        "avatar": "resources/images/avatar_05.png",
+        "chatData": "data/json/chat_person2.json",
+        "isFavourite": false,
+        "number": 1234567890
+    },
+    {
+        "name": "Hruday",
+        "avatar": "resources/images/avatar_02.png",
+        "chatData": "data/json/chat_person1.json",
+        "isFavourite": false,
+        "number": 1234567890
+    },
+    {
+        "name": "Utkarsha",
+        "avatar": "resources/images/avatar_01.png",
+        "chatData": "data/json/chat_person2.json",
+        "isFavourite": false,
+        "number": 1234567890
+    },
+    {
+        "name": "Rishabh",
+        "avatar": "resources/images/avatar_05.png",
+        "chatData": "data/json/chat_person1.json",
+        "isFavourite": true,
+        "number": 1234567890
+    },
+    {
+        "name": "Nitin",
+        "avatar": "resources/images/avatar_05.png",
+        "chatData": "data/json/chat_person2.json",
+        "isFavourite": true,
+        "number": 1234567890
+    },
+    {
+        "name": "Sayali",
+        "avatar": "resources/images/avatar_03.png",
+        "chatData": "data/json/chat_person1.json",
+        "isFavourite": false,
+        "number": 1234567890
+    },
+    {
+        "name": "Kanchan",
+        "avatar": "resources/images/avatar_04.png",
+        "chatData": "data/json/chat_person2.json",
+        "isFavourite": false,
+        "number": 1234567890
+    },
+    {
+        "name": "Siddhi",
+        "avatar": "resources/images/avatar_06.png",
+        "chatData": "data/json/chat_person1.json",
+        "isFavourite": true,
+        "number": 1234567890
+    },
+    {
+        "name": "Vaishnavi",
+        "avatar": "resources/images/avatar_07.png",
+        "chatData": "data/json/chat_person2.json",
+        "isFavourite": true,
+        "number": 1234567890
+    },
+    {
+        "name": "Chitra",
+        "avatar": "resources/images/avatar_10.png",
+        "chatData": "data/json/chat_person1.json",
+        "isFavourite": false,
+        "number": 1234567890
+    }
+]

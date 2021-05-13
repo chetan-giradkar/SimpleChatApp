@@ -1,0 +1,30 @@
+[
+    {
+        "receiver": "person2",
+        "sender": "me",
+        "timestamp": 1620755368,
+        "message": "yo",
+        "read": true
+    },
+    {
+        "receiver": "me",
+        "sender": "person2",
+        "timestamp": 1620755540,
+        "message": "wassap",
+        "read": false
+    },
+    {
+        "receiver": "person2",
+        "sender": "me",
+        "timestamp": 1620755368,
+        "message": "wassssaaaaaaaaaaaaaaa",
+        "read": false
+    },
+    {
+        "receiver": "me",
+        "sender": "person2",
+        "timestamp": 1620755608,
+        "message": "wassssaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "read": false
+    }
+]

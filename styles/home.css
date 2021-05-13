@@ -1,0 +1,125 @@
+#home {
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.tabs-heading-row {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.tab-heading {
+    font-size: 30px;
+    font-family: Verdana, sans-serif;
+    color: silver;
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fav-heading {
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+    margin-left: 30px;
+    color: gray;
+}
+
+.heading-active {
+    color: #2a2c2e;
+}
+
+.favourite>img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: #8C3BCE 3px solid;
+    align-self: center;
+}
+
+.fav-row {
+    margin-top: 20px;
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 2px solid gray;
+    overflow-x: auto;
+}
+
+.favourite {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.avatar-name {
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana, sans-serif;
+    font-size: medium;
+}
+
+.chat-list {
+    overflow-y: auto;
+    max-height: 57%;
+}
+
+.chat-peek {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid silver;
+    padding: 20px 5px;
+    cursor: pointer;
+}
+
+.avatar-section {
+    flex: 1;
+}
+
+.avatar-section>img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.name-section {
+    flex: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.name-section>.name {
+    font-size: large;
+    font-weight: bolder;
+}
+
+.time-section {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: end;
+    margin-right: 10px;
+}
+
+.unread-message {
+    font-family: Verdana, sans-serif;
+    font-size: 17px;
+    border-radius: 50%;
+    background-color: #8C3BCE;
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    align-self: flex-end;
+    padding-top: 2px;
+}
