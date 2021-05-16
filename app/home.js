@@ -8,7 +8,6 @@ fetch('./data/json/contacts.json')
 
 var getFavourites = function() {
     let favouriteContent = '<div class="fav-heading">Favourites</div> <span class="fav-row">';
-    // console.log(contacts);
     favourites = contacts.filter((contact) => {
         return contact.isFavourite;
     });
@@ -108,7 +107,6 @@ async function getHomeTab() {
 
 function navigateToChatScreen(e) {
     let name = e['path'][1]['innerText'];
-    // console.log(name);
     let search = document.getElementsByClassName('search');
     search = search[0];
     let nameSection = document.getElementsByClassName('name-heading-section');
@@ -120,6 +118,7 @@ function navigateToChatScreen(e) {
     let flag = document.getElementById('flag-btn');
     let chatTab = document.getElementById('chat');
 
+    chatTab.style.flexDirection = "column";
     chatTab.innerHTML = '<div class="loader">Loading...</div>'
 
     search.style.visibility = "hidden";
@@ -133,12 +132,7 @@ function navigateToChatScreen(e) {
 }
 
 function navigateToChatTab(e) {
-    console.log(e.target);
-    let name = e.path[2].children[1].children[0].innerText
-    if (name === "" || name === undefined) {
-        console.log(name);
-    }
-
+    let name = e.path[2].children[1].children[0].innerText;
     let search = document.getElementsByClassName('search');
     search = search[0];
     let nameSection = document.getElementsByClassName('name-heading-section');
@@ -179,7 +173,6 @@ window.addEventListener('load', async() => {
 
     let chats = document.getElementsByClassName('chat-peek');
     setTimeout(() => {
-        // console.log(chats[0])
         for (var i = 0; i < chats.length; i++) {
             con = chats[i];
             con.addEventListener('click', navigateToChatTab);

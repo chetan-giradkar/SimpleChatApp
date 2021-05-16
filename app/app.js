@@ -32,9 +32,9 @@ window.addEventListener('load', function() {
 
     var searchForString = function() {
         console.log(searchBox.value)
+            // here no changes are being made as the searching 
+            // call will take quite a while without back-end's support
     }
-
-    chat.innerHTML = getChatTab();
 
     // add event listener on searchIcon when clicked
     searchIcon.addEventListener('click', searchForString);
@@ -86,12 +86,4 @@ window.addEventListener('load', function() {
             home.style.width = "0";
         }
     });
-
-    // window.addEventListener("beforeunload", event => {
-    //     alert("Cant Reload");
-    //     event.preventDefault();
-    //     // Chrome requires returnValue to be set.
-    //     event.returnValue = ""
-    // });
-
 });
